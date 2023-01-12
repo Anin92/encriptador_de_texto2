@@ -14,16 +14,18 @@ function validando_mensaje(){
     let letraspermitidas = "abcdefghijklmnñopqrstuvwxyz ";
     let mensajeError = "";
     for (let letra of validacion){
-        if(!letraspermitidas.includes(letra))
-        mensajeError += "La letra " + letra + " no es valida.";  
+        if(!letraspermitidas.includes(letra)){
+        mensajeError += "recuerde que solo son permitidas letras minusculas y sin acentos, " + letra + "no es valida";
     }
         if (mensajeError.length === 0){
             return true;
         }
             return false;
     }
+}
 
-function encriptar(){
+
+function encriptar(){   
     if (!validando_mensaje()) return;
     
 var frase = document.getElementById("textoIngresado").value.toLowerCase();
