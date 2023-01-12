@@ -1,0 +1,132 @@
+body{
+    background: url(img/fondo.png);
+}
+.logo{
+    background-color: aqua;
+    float: left;
+    margin-left: 20px;
+}
+.titulo{
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.desarrollador{
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+section{
+    width: 100%;
+}
+section form{
+    background-color: #e3e4e5;
+    border-radius: 30px;
+    border-color: aqua;
+    box-shadow: 5px 5px 5px 7px aqua;
+    margin: auto;
+    width: 1000px;
+    height: 720px;
+    padding: 10px;
+}
+#lupa{
+    width: 250px;
+    height: 300px;
+    float: right;
+    margin-right: 0%;
+    margin-top: 2px;
+    margin-bottom: 150px;
+    display: show;
+}
+.cajas-de-texto{
+    text-align: center;
+    margin-top: 250px;
+}
+.seccion1{
+    float: left;
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 30%;
+    height: 30%;
+    color: violet;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background: rgba(138, 221, 45, 0);
+}
+.seccion2{
+    color: violet;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: rgba(138, 221, 45, 0);
+}
+.botones{
+    text-align: center;
+}
+.bt1{
+    padding: auto;
+    width: 15%;
+    height: 20%;
+    font-size: 18px;
+    color: aqua;
+    border-radius: 20px;
+    margin-left: 10%;
+    background: #0a3871;
+    position: static;
+}
+.bt1:hover{
+    border-color: #c78c19;
+    font-size: 20px;
+}
+.bt1:active{
+    border-color: green;
+}
+.bt2{
+    padding: auto;
+    width: 15%;
+    height: 20%;
+    font-size: 18px;
+    color: aqua;
+    border-radius: 20px;
+    margin-left: 10%;
+    background: #0a3871;
+    position: static;
+}
+.bt2:hover{
+    border-color: #c78c19;
+    font-size: 20px;
+} 
+.bt2:active{
+    border-color: green;
+}
+.bt3{
+    width: 12%;
+    height: 15%;
+    font-size: 18px;
+    color: aqua;
+    border-radius: 20px;
+    margin-left: 10%;
+    background: #0a3871;
+    display: show;
+    position: static;
+}
+.bt3:hover{
+    border-color: #c78c19;
+    font-size: 20px;
+}
+.bt3:active{
+    border-color: green;
+}
+span{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
