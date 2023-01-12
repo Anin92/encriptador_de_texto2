@@ -7,7 +7,25 @@ botonEncriptado.addEventListener('click', encriptar);
 botonDesencriptado.addEventListener('click', desencriptar);
 botoncopiar.addEventListener('click', copiar);
 
+const seccion1 = document.querySelector("base1");
+
+function validando_mensaje(){
+    var validacion = document.getElementById("textoIngresado").value
+    let letraspermitidas = "abcdefghijklmnñopqrstuvwxyz ";
+    let mensajeError = "";
+    for (let letra of validacion){
+        if(!letraspermitidas.includes(letra))
+        mensajeError += "La letra " + letra + " no es valida.";  
+    }
+        if (mensajeError.length === 0){
+            return true;
+        }
+            return false;
+    }
+
 function encriptar(){
+    if (!validando_mensaje()) return;
+    
 var frase = document.getElementById("textoIngresado").value.toLowerCase();
 
 var textoIngresado = frase.replace(/e/img, "enter");
