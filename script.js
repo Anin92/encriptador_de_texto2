@@ -40,6 +40,7 @@ document.getElementById("textoEncriptado").innerHTML = textoIngresado;
 
 
 function desencriptar(){
+    if (!validando_mensaje()) return;
 var frase = document.getElementById("textoIngresado").value.toLowerCase();
 
 var textoIngresado = frase.replace(/enter/img, "e");
